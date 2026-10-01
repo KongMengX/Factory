@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++ *.cpp -o app
+g++ -std=c++17 -Wall -Wextra -pedantic main.cpp factory_creator.cpp -o app
 ./app
